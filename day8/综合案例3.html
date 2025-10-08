@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    li {
+      list-style: none;
+    }
+    .box {
+      width: 1200px;
+      height: 418px;
+      background-color: pink;
+      margin: 40px auto;
+      border-radius: 30px;
+      border: 10px solid red;
+    }
+    .box ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: space-between;
+      padding: 30px 30px 50px;
+      height: 418px;
+    }
+    .box li {
+      width: 500px;
+      height: 120px;
+      background: rgb(187, 144, 151);
+      display: flex;
+    }
+    .box li .text h4{
+      font-family: 楷体;
+      font-size: 30px;
+      line-height: 50px;
+    }
+    .box li .text p{
+      line-height: 50px;
+    }
+  </style>
+  <title>flex布局</title>
+</head>
+<body>
+  <div class="box">
+    <ul>
+      <li>
+        <div class="img"><img src="https://sal-qianqian.icu/images/sal.jpg" alt="" style="width: 80px; height: 80px; margin: 20px 30px;"></div>
+        <div class="text">
+          <h4>avatar</h4>
+          <p>这是一段描述这是一段描述这是一段描述</p>
+        </div>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</body>
+</html>
